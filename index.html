@@ -19,6 +19,9 @@ window.cookieconsent.initialise({
   "type": "opt-in",
   "revokeChoice": function() {
       window.Osano.cm.showDrawer();
+  },
+  "onStatusChange": function() {
+      window.Osano.cm.showDrawer();
   }
 });
 </script>
