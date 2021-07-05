@@ -16,7 +16,10 @@ window.cookieconsent.initialise({
       "background": "#f1d600"
     }
   },
-  "type": "opt-in"
+  "type": "opt-in",
+  "revokeChoice": function() {
+      window.Osano.cm.showDrawer();
+  }
 });
 </script>
     </body>
